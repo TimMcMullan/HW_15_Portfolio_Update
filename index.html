@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UD_01</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Tim McMullan</h1>
+        <nav>
+            <ul>
+                <li><a href="#about_me">About Me</a></li>
+                <li><a href="#work">Work</a></lI>
+                <li><a href="#contact_me">Contact Me</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="subtitle">
+        <h2>Cool Subtitle</h2>
+    </section>
+
+    <main>
+        <section class="layout flex-layout">
+            <section>
+                <div>
+                    <!-- ABOUT ME SECTION  -->
+                    <section id="about_me" class="layout flex-layout about_me_top">
+                        <img src="assets/images/Tim.jpeg" alt="Tim McMullan" ; style="height:300px" />
+                        <h3>Tim McMullan</h3>
+                        <div id="verbiager">
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has
+                                been
+                                the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                                galley
+                                of type and scrambled it to make a type specimen book. It has survived not only five
+                                centuries,
+                                but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                                popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                                passages,
+                                and more recently with desktop publishing software like Aldus PageMaker including
+                                versions
+                                of
+                                Lorem Ipsum.
+                            </p>
+                        </div>
+                    </section>
+                    <!-- CONTACT ME SECTION  -->
+                    <section id="contact_me">
+                        <h3>Contact Me</h3>
+                        <ul class="contact_info">
+                            <li>phone: 407 314-4437</li>
+                            <li>Mail: McMullanT@gmail.com</li>
+                            <li>github: github.com/TimMcMullan</li>
+                            <li>twitter: @TMcMullan</li>
+                        </ul>
+                    </section>
+                    <!-- RESUME SECTION  -->
+                    <section id="resume">
+                        <h3>Resume</h3>
+                        <p class="resume_content">Coming Soon!!</p>
+                    </section>
+                </div>
+
+            </section>
+            <!-- start aside with icons of projects, clickable, to take you to published GitHub site  -->
+            <section class="right_column" id="work">
+                <!-- WORK SECTION WITH CAROUSEL ADDED  -->
+
+                <body>
+
+                    <div class="container text-center">
+                        <h3>My evolution in coding.</h3>
+
+                        <div id=collage-container>
+                            <!-- IMAGES FOR CONTAINER  -->
+                            <img src="assets/images/HW01.jpg" id="collage-one" />
+                            <img src="assets/images/HW02.jpg" id="collage-two" />
+                            <img src="assets/images/HW03.png" id="collage-three" />
+                            <img src="assets/images/HW04.png" id="collage-four" />
+                            <img src="assets/images/HW05.jpg" id="collage-five" />
+                            <img src="assets/images/HW06.jpg" id="collage-six" />
+                            <img src="assets/images/project_1.jpeg" id="collage-p1" />
+                            <img src="assets/images/HW09.png" id="collage-nine" />
+                            <img src="assets/images/HW10.png" id="collage-ten" />
+                            <img src="assets/images/HW11.png" id="collage-eleven" />
+                            <img src="assets/images/HW12.png" id="collage-twelve" />
+                            <img src="assets/images/project_2.png" id="collage-p2" />
+                        </div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal"
+                            data-target="#ModalCarousel">
+                            Click here to browse my works
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="ModalCarousel" tabindex="-1" role="dialog"
+                            aria-labelledby="ModalCarouselLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div id="carousel-modal-demo" class="carousel slide" data-ride="carousel">
+
+
+
+                                        <!-- Sliding images starting here -->
+                                        <div class="carousel-inner">
+                                            <div class="item active">
+                                                <a id="hw01" class="project_box project_names"
+                                                    href="https://timmcmullan.github.io/code_refractor/"
+                                                    target="_blank">
+                                                    <p>HW 01</p>
+                                                    <p>Code Refactor</p>
+                                                </a>
+                                            </div>
+                                            <div class="item">
+                                                <a id="hw02" class="project_box project_names"
+                                                    href="https://timmcmullan.github.io/HW_02_portfolio/"
+                                                    target="_blank">
+                                                    <p>HW 02</p>
+                                                    <p>Portfolio</p>
+                                                </a>
+                                            </div>
+                                            <div class="item">
+                                                <a id="hw03" class="project_box project_names"
+                                                    href="https://timmcmullan.github.io/HW03_pwgen/" target="_blank">
+                                                    <p>HW 03</p>
+                                                    <p>Password Generator</p>
+                                                </a>
+                                            </div>
+                                            <div class="item">
+                                                <a id="hw04" class="project_box project_names"
+                                                    href="https://timmcmullan.github.io/HW04_quiz/" target="_blank">
+                                                    <p>HW 04</p>
+                                                    <p>Code Quiz</p>
+                                                </a>
+                                            </div>
+                                            <div class="item">
+                                                <a id="hw05" class="project_box project_names"
+                                                    href="https://timmcmullan.github.io/HW_05_day_planner/"
+                                                    target="_blank">
+                                                    <p>HW 05</p>
+                                                    <p>Day Planner</p>
+                                                </a>
+                                            </div>
+                                            <div class="item">
+                                                <a id="hw06" class="project_box project_names"
+                                                    href="https://timmcmullan.github.io/HW_06_weather/" target="_blank">
+                                                    <p>HW 06</p>
+                                                    <p>Weather</p>
+                                                </a>
+                                            </div>
+                                            <div class="item">
+                                                <a id="project1" class="project_box project_names"
+                                                    href="https://odisclemons.github.io/route-my-day/" target="_blank">
+                                                    <p>Project 1</p>
+                                                    <p>Route My Day</p>
+                                                </a>
+                                            </div>
+                                            <div class="item">
+                                                <a id="hw09" class="project_box project_names"
+                                                    href="https://timmcmullan.github.io/HW_09_README.md_Generator"
+                                                    target="_blank">
+                                                    <p>HW 09</p>
+                                                    <p>README.md Generator</p>
+                                                </a>
+                                            </div>
+                                            <div class="item">
+                                                <a id="hw10" class="project_box project_names"
+                                                    href="https://timmcmullan.github.io/HW_10_OOP" target="_blank">
+                                                    <p>HW 10</p>
+                                                    <p>Team Profile Generatorr</p>
+                                                </a>
+                                            </div>
+                                            <div class="item">
+                                                <a id="hw11" class="project_box project_names"
+                                                    href="https://timmcmullan.github.io/HW_11_NoteTaker"
+                                                    target="_blank">
+                                                    <p>HW 11</p>
+                                                    <p>NoteTaker</p>
+                                                </a>
+                                            </div>
+                                            <div class="item">
+                                                <a id="hw12" class="project_box project_names"
+                                                    href="https://timmcmullan.github.io/HW_12_Employee_Tracker"
+                                                    target="_blank">
+                                                    <p>HW 12</p>
+                                                    <p>Employee Tracker</p>
+                                                </a>
+                                            </div>
+
+                                            <!-- FOR FUTURE USE (HW 13 AND HW 14)  -->
+                                            <!-- </div>
+                                            <div class="item">
+                                                <a id="hw13" class="project_box project_names"
+                                                    href="https://timmcmullan.github.io/HW_13_ORM_E_Commerce_Back_End"
+                                                    target="_blank">
+                                                    <p>HW 13</p>
+                                                    <p>E-commerce Back End</p>
+                                                </a>
+                                            </div>
+                                            <div class="item">
+                                                <a id="hw14" class="project_box project_names"
+                                                    href="https://timmcmullan.github.io/HW_14_Tech_Blog"
+                                                    target="_blank">
+                                                    <p>HW 14</p>
+                                                    <p>Tech Blog</p>
+                                                </a>
+                                            </div> -->
+                                            <div class="item">
+                                                <a id="project2" class="project_box project_names"
+                                                    href="https://JosephLMurray.github.io/rookies" target="_blank">
+                                                    <p>Project 2</p>
+                                                    <p>pitch.catch</p>
+                                                </a>
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            
+
+                            <!-- Next / Previous controls here -->
+                            <a class="left carousel-control" href="#carousel-modal-demo" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+
+                            <a class="right carousel-control" href="#carousel-modal-demo" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- script for carousel  -->
+                    <script src="https://code.jquery.com/jquery.js"></script>
+                    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+
+                </body>
+
+
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>
